@@ -126,7 +126,7 @@ fun proc_raw_packet(raw : ByteArray, client : Boolean = true)
       }
       catch (e: javax.crypto.AEADBadTagException)
       {
-        bitsLeft--
+        bitsLeft -= 8
         continue
       }
       break

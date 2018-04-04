@@ -112,7 +112,7 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
 
   fun show() {
     val config = Lwjgl3ApplicationConfiguration()
-    config.setTitle("[${localAddr.hostAddress} ${sniffOption.name}] - VMRadar v1.2.1")
+    config.setTitle("[${localAddr.hostAddress} ${sniffOption.name}] - Gaydar v6.9")
     config.setWindowIcon(Files.FileType.Internal, "icon.png")
     config.useOpenGL3(false, 2, 1)
     config.setWindowedMode(initialWindowWidth.toInt(), initialWindowWidth.toInt())

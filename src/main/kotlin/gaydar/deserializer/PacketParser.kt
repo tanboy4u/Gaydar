@@ -97,27 +97,38 @@ fun proc_raw_packet(raw : ByteArray, client : Boolean = true)
     val nonce = reader.readBits(96)
     val tag = reader.readBits(128)
     var bitsLeft = reader.bitsLeft()
-    var realBitsLeft = bitsLeft - (bitsLeft % 8)
-    val reader2 = Buffer(raw, 1 + 1 + 96 + 128, realBitsLeft)
-    val ciphertext = reader2.readBits(realBitsLeft)
-    val cipher = Cipher.getInstance("AES/GCM/NoPadding")
-    val keySpec = SecretKeySpec(EncryptionToken, "AES")
-    val paramSpec = GCMParameterSpec(128, nonce)
-    cipher.init(Cipher.DECRYPT_MODE, keySpec, paramSpec);
-    cipher.update(ciphertext)
-    val plaintext = cipher.doFinal(tag)
-    if (plaintext.isEmpty()) return
-    var lastByte = plaintext.last().toInt() and 0xFF
-    if (lastByte != 0)
+    while (bitsLeft > 0)
     {
-      var bitsize = (plaintext.size * 8) - 2
-      while ((lastByte and 0x80) == 0)
+      try
       {
-        lastByte *= 2
-        bitsize--
+        val reader2 = Buffer(raw, 1 + 1 + 96 + 128, bitsLeft)
+        val ciphertext = reader2.readBits(bitsLeft)
+        val cipher = Cipher.getInstance("AES/GCM/NoPadding")
+        val keySpec = SecretKeySpec(EncryptionToken, "AES")
+        val paramSpec = GCMParameterSpec(128, nonce)
+        cipher.init(Cipher.DECRYPT_MODE, keySpec, paramSpec);
+        cipher.update(ciphertext)
+        val plaintext = cipher.doFinal(tag)
+        if (plaintext.isEmpty()) return
+        var lastByte = plaintext.last().toInt() and 0xFF
+        if (lastByte != 0)
+        {
+          var bitsize = (plaintext.size * 8) - 2
+          while ((lastByte and 0x80) == 0)
+          {
+            lastByte *= 2
+            bitsize--
+          }
+          val reader3 = Buffer(plaintext, 0, bitsize)
+          reader3.proc_raw_packet(client, true)
+        }
       }
-      val reader3 = Buffer(plaintext, 0, bitsize)
-      reader3.proc_raw_packet(client, true)
+      catch (e: javax.crypto.AEADBadTagException)
+      {
+        bitsLeft--
+        continue
+      }
+      break
     }
   }
 }

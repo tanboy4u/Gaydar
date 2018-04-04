@@ -1,0 +1,61 @@
+Markers.png
+size: 256, 73
+format: RGBA8888
+filter: Nearest,Linear
+repeat: none
+marker1
+  rotate: false
+  xy: 142, 1
+  size: 44, 71
+  orig: 50, 71
+  offset: 3, 0
+  index: -1
+marker2
+  rotate: false
+  xy: 1, 1
+  size: 45, 71
+  orig: 50, 71
+  offset: 3, 0
+  index: -1
+marker3
+  rotate: false
+  xy: 48, 1
+  size: 45, 71
+  orig: 50, 71
+  offset: 2, 0
+  index: -1
+marker4
+  rotate: false
+  xy: 95, 1
+  size: 45, 71
+  orig: 50, 71
+  offset: 2, 0
+  index: -1
+marker5
+  rotate: false
+  xy: 189, 1
+  size: 45, 71
+  orig: 50, 71
+  offset: 2, 0
+  index: -1
+marker6
+  rotate: false
+  xy: 236, 1
+  size: 45, 71
+  orig: 50, 71
+  offset: 2, 0
+  index: -1
+marker7
+  rotate: false
+  xy: 283, 1
+  size: 45, 71
+  orig: 50, 71
+  offset: 2, 0
+  index: -1
+marker8
+  rotate: false
+  xy: 330, 1
+  size: 45, 71
+  orig: 50, 71
+  offset: 2, 0
+  index: -1

@@ -1,0 +1,187 @@
+APawnIcons.png
+size: 512, 1105
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AquaRail
+  rotate: false
+  xy: 250, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bike
+  rotate: false
+  xy: 320, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+boat
+  rotate: false
+  xy: 384, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+buggy
+  rotate: false
+  xy: 128, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bus
+  rotate: false
+  xy: 512, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+CarePackage
+  rotate: false
+  xy: 256, 449
+  size: 136, 144
+  orig: 136, 144
+  offset: 0, 0
+  index: -1
+corpse
+  rotate: false
+  xy: 448, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dacia
+  rotate: false
+  xy: 64, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+enemy
+  rotate: false
+  xy: 128, 321
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+flashbang
+  rotate: false
+  xy: 256, 321
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fragbomb
+  rotate: false
+  xy: 0, 449
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+marker1
+  rotate: false
+  xy: 86, 65
+  size: 86, 128
+  orig: 86, 128
+  offset: 0, 0
+  index: -1
+marker2
+  rotate: false
+  xy: 172, 65
+  size: 86, 128
+  orig: 86, 128
+  offset: 0, 0
+  index: -1
+marker3
+  rotate: false
+  xy: 0, 65
+  size: 86, 128
+  orig: 86, 128
+  offset: 0, 0
+  index: -1
+marker4
+  rotate: false
+  xy: 258, 65
+  size: 86, 128
+  orig: 86, 128
+  offset: 0, 0
+  index: -1
+molotov
+  rotate: false
+  xy: 384, 321
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+pickup
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+plane
+  rotate: false
+  xy: 0, 593
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+redzoneBomb
+  rotate: false
+  xy: 128, 449
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+self
+  rotate: false
+  xy: 256, 193
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+smokebomb
+  rotate: false
+  xy: 0, 193
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+team1
+  rotate: false
+  xy: 344, 65
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+team2
+  rotate: false
+  xy: 0, 321
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+team3
+  rotate: false
+  xy: 384, 193
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+team4
+  rotate: false
+  xy: 128, 193
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+uaz
+  rotate: false
+  xy: 192, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

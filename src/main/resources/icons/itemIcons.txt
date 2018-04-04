@@ -1,0 +1,628 @@
+item-sprites.png
+size: 576, 896
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Item_Ammo_12Guage_C
+  rotate: false
+  xy: 0, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Ammo_9mm_C
+  rotate: false
+  xy: 64, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+  Item_Ammo_45ACP_C
+  rotate: false
+  xy: 128, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Ammo_556mm_C
+  rotate: false
+  xy: 192, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Ammo_762mm_C
+  rotate: false
+  xy: 256, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Ammo_300Magnum_C
+  rotate: false
+  xy: 320, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Armor_C_01_Lv3_C
+  rotate: false
+  xy: 192, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Armor_D_01_Lv2_C
+  rotate: false
+  xy: 128, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Armor_E_01_Lv1_C
+  rotate: false
+  xy: 448, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Lower_AngledForeGrip_C
+  rotate: false
+  xy: 0, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Lower_Foregrip_C
+  rotate: false
+  xy: 0, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Magazine_Extended_Large_C
+  rotate: false
+  xy: 128, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Magazine_Extended_Medium_C
+  rotate: false
+  xy: 64, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Magazine_Extended_SniperRifle_C
+  rotate: false
+  xy: 192, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Large_C
+  rotate: false
+  xy: 128, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Medium_C
+  rotate: false
+  xy: 64, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Magazine_ExtendedQuickDraw_SniperRifle_C
+  rotate: false
+  xy: 192, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_Compensator_Large_C
+  rotate: false
+  xy: 320, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_Compensator_Medium_C
+  rotate: false
+  xy: 256, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_Compensator_SniperRifle_C
+  rotate: false
+  xy: 384, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_FlashHider_Large_C
+  rotate: false
+  xy: 512, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_FlashHider_Medium_C
+  rotate: false
+  xy: 256, 640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_FlashHider_SniperRifle_C
+  rotate: false
+  xy: 512, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_Suppressor_Large_C
+  rotate: false
+  xy: 320, 704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_Suppressor_Medium_C
+  rotate: false
+  xy: 256,704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Muzzle_Suppressor_SniperRifle_C
+  rotate: false
+  xy: 384,704
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Stock_AR_Composite_C
+  rotate: false
+  xy: 448,640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Stock_SniperRifle_BulletLoops_C
+  rotate: false
+  xy: 512,640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Stock_SniperRifle_CheekPad_C
+  rotate: false
+  xy: 512,640
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Upper_ACOG_01_C
+  rotate: false
+  xy: 192, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Upper_Aimpoint_C
+  rotate: false
+  xy: 128, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Upper_CQBSS_C
+  rotate: false
+  xy: 256, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Upper_DotSight_01_C
+  rotate: false
+  xy: 0, 768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Attach_Weapon_Upper_Holosight_C
+  rotate: false
+  xy: 64,768
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Back_C_01_Lv3_C
+  rotate: false
+  xy: 64, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Back_C_02_Lv3_C
+  rotate: false
+  xy: 64, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Back_E_01_Lv1_C
+  rotate: false
+    xy: 448, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Back_E_02_Lv1_C
+  rotate: false
+    xy: 448, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Back_F_01_Lv2_C
+  rotate: false
+  xy: 0, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Back_F_02_Lv2_C
+  rotate: false
+  xy: 0, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Boost_AdrenalineSyringe_C
+  rotate: false
+  xy: 448, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Boost_EnergyDrink_C
+  rotate: false
+  xy: 320, 0 
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Boost_PainKiller_C
+  rotate: false
+  xy: 384, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Ghillie_01_C
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Ghillie_02_C
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Head_E_01_Lv1_C
+  rotate: false
+    xy: 384, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Head_E_02_Lv1_C
+  rotate: false
+  xy: 384, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Head_F_01_Lv2_C
+  rotate: false
+  xy: 256, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Head_F_02_Lv2_C
+  rotate: false
+  xy: 256, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Head_G_01_Lv3_C
+  rotate: false
+  xy: 320, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Heal_Bandage_C
+  rotate: false
+  xy: 128, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Heal_FirstAid_C
+  rotate: false
+  xy: 192, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Heal_MedKit_C
+  rotate: false
+  xy: 256, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_AK47_C
+  rotate: false
+  xy: 64, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_AUG_C
+  rotate: false
+  xy: 320, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_AWM_C
+  rotate: false
+  xy: 448, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Berreta686_C
+  rotate: false
+  xy: 128, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_DP28_C
+  rotate: false
+  xy: 256, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_FlashBang_C
+  rotate: false
+  xy: 64, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_G18_C
+  rotate: false
+  xy: 192, 384 
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Grenade_C
+  rotate: false
+  xy: 192, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_FlareGun_C
+  rotate: false
+  xy: 256, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Ammo_Flare_C
+  rotate: false
+  xy: 320, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Groza_C
+  rotate: false
+  xy: 256, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_HK416_C
+  rotate: false
+  xy: 192, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Kar98k_C
+  rotate: false
+  xy: 320, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_M9_C
+  rotate: false
+  xy: 128, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_M16A4_C
+  rotate: false
+  xy: 0 , 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_M24_C
+  rotate: false
+  xy: 384, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_M249_C
+  rotate: false
+  xy: 320, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_M1911_C
+  rotate: false
+  xy: 64, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Mini14_C
+  rotate: false
+  xy: 256, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Mk14_C
+  rotate: false
+  xy: 128, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Molotov_C
+  rotate: false
+  xy: 128, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_NagantM1895_C
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Pan_C
+  rotate: false
+  xy: 192, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Rhino_C
+  rotate: false
+  xy: 256, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Saiga12_C
+  rotate: false
+  xy: 64, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_SawenOff_C
+  rotate: false
+  xy: 192, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_SCAR-L_C
+  rotate: false
+  xy: 128, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_SKS_C
+  rotate: false
+  xy: 192, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_SmokeBomb_C
+  rotate: false
+  xy: 0, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Thompson_C
+  rotate: false
+  xy: 192, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_UMP_C
+  rotate: false
+  xy: 64, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_UZI_C
+  rotate: false
+  xy: 0, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Vector_C
+  rotate: false
+  xy: 128, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_VSS_C
+  rotate: false
+  xy: 64, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Win94_C
+  rotate: false
+  xy: 0, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_Winchester_C
+  rotate: false
+  xy: 0, 576
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

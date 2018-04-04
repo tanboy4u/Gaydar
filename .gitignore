@@ -1,0 +1,8 @@
+target/
+.idea
+logall.txt
+*.json
+
+target1/
+
+*.rar

@@ -1,0 +1,40 @@
+item-sprites.png
+size: 576, 896
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Item_Weapon_AUG_C
+  rotate: false
+  xy: 448, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_M24_C
+  rotate: false
+  xy: 448, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_GROZA_C
+  rotate: false
+  xy: 448, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_AWM_C
+  rotate: false
+  xy: 448, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Item_Weapon_MK14_C
+  rotate: false
+  xy: 448, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

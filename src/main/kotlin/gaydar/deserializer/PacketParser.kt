@@ -97,6 +97,7 @@ fun proc_raw_packet(raw : ByteArray, client : Boolean = true)
     val nonce = reader.readBits(96)
     val tag = reader.readBits(128)
     var bitsLeft = reader.bitsLeft()
+    bitsLeft = bitsLeft - (bitsLeft % 8)
     while (bitsLeft > 0)
     {
       try
